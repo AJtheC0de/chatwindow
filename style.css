@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+p,
+h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.icon {
+  height: 70px;
+  border-radius: 50%;
+}
+
+.information {
+  margin-left: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.alphabetsearch {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: flex-start;
+  width: 280px;
+}
+.number,
+.name {
+  margin-left: 20px;
+}
+
+.contactlist {
+  margin-top: 50px;
+}
+
+.searchbar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px 30px;
+  border-radius: 12px;
+  background-color: #f5f4f7;
+  border: none;
+  margin-bottom: 20px;
+  width: 280px;
+}
+
+button {
+  padding: 20px 30px;
+  border-radius: 12px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  background-color: #75c5b0;
+  border: none;
+  width: 380px;
+  justify-content: center;
+  margin-bottom: 20px;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+button > img {
+  height: 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: rgb(204, 202, 202);
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
